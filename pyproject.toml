@@ -1,5 +1,5 @@
 [project]
-name = "unko-by-rye"
+name = "unko"
 version = "0.1.0"
 description = "Add your description here"
 authors = [
@@ -10,7 +10,7 @@ readme = "README.md"
 requires-python = ">= 3.8"
 
 [project.scripts]
-hello = "unko_by_rye:hello"
+hello = "unko:hello"
 
 [build-system]
 requires = ["hatchling"]
@@ -24,4 +24,4 @@ dev-dependencies = []
 allow-direct-references = true
 
 [tool.hatch.build.targets.wheel]
-packages = ["src/unko_by_rye"]
+packages = ["src/unko"]
