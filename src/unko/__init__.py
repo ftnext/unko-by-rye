@@ -1,2 +1,1 @@
-def hello():
-    return "Hello from unko!"
+from unko.unko import deru
