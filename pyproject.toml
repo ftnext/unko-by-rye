@@ -10,7 +10,7 @@ readme = "README.md"
 requires-python = ">= 3.8"
 
 [project.scripts]
-hello = "unko-by-rye:hello"
+hello = "unko_by_rye:hello"
 
 [build-system]
 requires = ["hatchling"]
